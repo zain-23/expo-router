@@ -6,10 +6,38 @@ export default function Products() {
   return (
     <View style={styles.container}>
       <Text>Products Page</Text>
-      <Link href={'/products/1'}>Product 1</Link>
-      <Link href={'/products/2'}>Product 2</Link>
-      <Link href={'/products/3'}>Product 3</Link>
-      <Link href={'/products/4'}>Product 4</Link>
+      <Link
+        href={{
+          pathname: '/products/[id]',
+          params: { id: '1' }
+        }}
+      >
+        Product 1
+      </Link>
+      <Link
+        href={{
+          pathname: '/products/[id]',
+          params: { id: '2' }
+        }}
+      >
+        Product 2
+      </Link>
+      <Link
+        href={{
+          pathname: '/products/[id]',
+          params: { id: '3' }
+        }}
+      >
+        Product 3
+      </Link>
+      <Link
+        href={{
+          pathname: '/products/[id]',
+          params: { id: '4' }
+        }}
+      >
+        Product 4
+      </Link>
     </View>
   );
 }
