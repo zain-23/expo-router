@@ -38,6 +38,10 @@ export default function Products() {
       >
         Product 4
       </Link>
+
+      <Link href='/products/best-sellers/playstation-5'>Playstation 5 (Best Seller)</Link>
+      <Link href='/products/deals/black-friday/playstation-5'>Playstation 5 (Deal)</Link>
+      <Link href='/products/search/playstation-5'>Playstation 5 (Search)</Link>
     </View>
   );
 }
