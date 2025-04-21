@@ -7,34 +7,26 @@ export default function Products() {
     <View style={styles.container}>
       <Text>Products Page</Text>
       <Link
-        href={{
-          pathname: '/products/[id]',
-          params: { id: '1' }
-        }}
+        href='./1'
+        relativeToDirectory
       >
         Product 1
       </Link>
       <Link
-        href={{
-          pathname: '/products/[id]',
-          params: { id: '2' }
-        }}
+        href='./2'
+        relativeToDirectory
       >
         Product 2
       </Link>
       <Link
-        href={{
-          pathname: '/products/[id]',
-          params: { id: '3' }
-        }}
+        href='./3'
+        relativeToDirectory
       >
         Product 3
       </Link>
       <Link
-        href={{
-          pathname: '/products/[id]',
-          params: { id: '4' }
-        }}
+        href='./4'
+        relativeToDirectory
       >
         Product 4
       </Link>

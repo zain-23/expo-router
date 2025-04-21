@@ -3,7 +3,13 @@ import { View, Text } from 'react-native';
 const login = () => {
   return (
     <View>
-      <Text>Login Page</Text>
+      <Text
+        style={{
+          fontSize: 35
+        }}
+      >
+        Login Plzz
+      </Text>
     </View>
   );
 };
